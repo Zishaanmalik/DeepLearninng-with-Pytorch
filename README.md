@@ -1,39 +1,43 @@
 # DeepLearninng-with-Pytorch
 
-A hands-on collection of PyTorch Jupyter notebooks covering core deep learning concepts from fundamentals to intermediate applications with real examples. This repo is ideal for learners who want to explore deep learning by running and modifying code.
+A hands-on collection of PyTorch Jupyter notebooks covering essential deep learning concepts. This repository helps learners understand PyTorch through practical, runnable notebooks covering tensors, regression, classification, CNNs, RNNs, LSTMs, custom datasets, and transfer learning.
 
-## 📚 Notebooks Included
+## Notebooks Included
+- pytorch_tensors.ipynb – PyTorch tensor basics and gradient operations
+- pytorch_regression.ipynb – Linear and nonlinear regression models
+- pytorch_binary_classification.ipynb – Binary classification modelling
+- pytorch_multi_classification.ipynb – Multi-class classification tasks
+- pytorch_CNN.ipynb – Convolutional Neural Networks for images
+- pytorch_RNN.ipynb – Recurrent Neural Networks
+- ptorch_LSTM.ipynb – LSTM for sequence learning
+- pytorch_custom_dataset.ipynb – Custom datasets and DataLoaders
+- pytorcrh_transfer_learning.ipynb – Transfer learning with pretrained models
+- data/ – Supporting datasets
+- models/ – Example saved model files
 
-This repository contains the following notebooks:
+## What You Will Learn
+- Tensor operations, autograd, gradients
+- Regression and classification modelling
+- CNNs for computer vision
+- RNN and LSTM models for sequence tasks
+- Using DataLoader and custom datasets
+- Transfer learning with pretrained models
+- Training loops, evaluation, and saving models
 
-- **pytorch_tensors.ipynb** – PyTorch tensor basics and operations  
-- **pytorch_regression.ipynb** – Regression models and training loops  
-- **pytorch_binary_classification.ipynb** – Binary classification examples  
-- **pytorch_multi_classification.ipynb** – Multi-class classification workflows  
-- **pytorch_CNN.ipynb** – Convolutional Neural Networks for image data  
-- **pytorch_RNN.ipynb** – Recurrent Neural Network implementations  
-- **ptorch_LSTM.ipynb** – LSTM networks for sequence learning  
-- **pytorch_custom_dataset.ipynb** – Custom dataset & DataLoader usage  
-- **pytorcrh_transfer_learning.ipynb** – Transfer learning with pretrained models  
-- **data/** – Supporting datasets used in some notebooks  
-- **models/** – Example model files used for saving and loading
+## How to Use
+Clone:
+git clone https://github.com/Zishaanmalik/DeepLearninng-with-Pytorch.git
 
-*(Notebook names are shown exactly as they appear in the repository)* :contentReference[oaicite:1]{index=1}
+Install:
+pip install torch torchvision numpy pandas scikit-learn jupyter
 
-## 🔍 What You Will Learn
+Run:
+jupyter notebook
 
-- How to work with **PyTorch tensors, autograd, and basic operations**  
-- Building and training models for **regression and classification**  
-- Using **loss functions, optimizers, and evaluation metrics**  
-- Designing and training **CNNs for image tasks**  
-- Implementing **RNN & LSTM models for sequence data**  
-- Creating **custom datasets and loading pipelines**  
-- Applying **transfer learning** with pretrained networks
+## Who This Is For
+- Beginners exploring PyTorch
+- Students learning neural networks and deep learning fundamentals
+- Developers wanting runnable notebook references
+- Anyone who prefers learning-by-doing through Jupyter notebooks
 
-Each notebook provides runnable Python code that demonstrates key deep learning ideas, so you can learn by executing and experimenting.
-
-## 🚀 How to Use
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Zishaanmalik/DeepLearninng-with-Pytorch.git
+Start experimenting with the notebooks and build deep learning skills with PyTorch!
